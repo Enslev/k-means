@@ -6,7 +6,7 @@ public class KMeans {
 	public ArrayList<Cluster> cs;
 	public ArrayList<Double> obsList;
 
-	public KMeans(int n, double[] obs) {
+	public KMeans(double n, double[] obs) {
 		this.cs = new ArrayList<Cluster>();
 		this.obsList = new ArrayList<Double>();
 
